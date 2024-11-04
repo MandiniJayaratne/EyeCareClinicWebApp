@@ -1,0 +1,139 @@
+.card-img-container {
+  width: 100%;
+  height: 150px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-details {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card-reviews {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.card-price {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.price {
+  margin-right: 10px;
+}
+
+.bag {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bannerContainer {
+  background-image: url("../assets/glasses.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+
+.teext {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.search-container {
+  position: relative;
+  width: 100%;
+}
+
+.search-input {
+  width: calc(100% - 30px);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffff;
+  color: #333;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  color: #333; /* Icon color */
+}
+.background {
+  background-color: #122c4d;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-position: 0%;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: #333;
+}
+
+.search-input:focus::placeholder {
+  color: transparent;
+}
+
+.search-icon {
+  cursor: pointer;
+}
+
+.search-icon:hover {
+  color: #333;
+}
+
+.search-icon:active {
+  color: #333;
+}
+.p-3 border border-gray-300 rounded-md {
+  background-color: #ffffff;
+}
+.bgclr {
+  background-color: #ffffff;
+}
+
+.card-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card-wrapper:hover .card-content {
+  opacity: 1;
+}
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 750;
+  font-size: 10px;
+}
