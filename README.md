@@ -42,7 +42,7 @@ In this project, I focused on:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/MandiniJayaratne/EyeCareClinicWebApp.git
-   cd coffeeFind
+  
 
 2. **Backend Setup**:
    - Navigate to the backend directory:
