@@ -30,4 +30,57 @@ In this project, I focused on:
 * **Authentication**: JSON Web Tokens (JWT) 🔐 for secure access
 * **Project Management**: Git and GitHub for version control, Trello for task tracking
 
+## Installation and Setup 🛠️
+
+### Prerequisites
+
+- Node.js and npm
+- MongoDB (or a cloud-based MongoDB service)
+
+### Steps
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/MandiniJayaratne/EyeCareClinicWebApp.git
+   cd coffeeFind
+
+2. **Backend Setup**:
+   - Navigate to the backend directory:
+     ```bash
+     cd backend
+     ```
+
+   - Install dependencies:
+     ```bash
+     npm install
+     ```
+
+   - **Configure the MongoDB connection**:  
+     
+     ```plaintext
+     MONGODB_URI=your_mongodb_connection_string
+   
+     ```
+
+   - Start the backend server:
+     ```bash
+     npm start
+     ```
+
+3. **Frontend Setup**:
+   - Open a new terminal and navigate to the frontend directory:
+     ```bash
+     cd ../frontend
+     ```
+
+   - Install dependencies:
+     ```bash
+     npm install
+     ```
+
+   - Start the React app:
+     ```bash
+     npm start
+     ```
+
 
